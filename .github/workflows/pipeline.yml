@@ -3,7 +3,12 @@ name: Telefoon-detectie pipeline
 on:
   schedule:
     - cron: "15 */2 * * *"   # elke 2 uur; pas gerust aan naar smaak
-  workflow_dispatch: {}       # handmatig draaien via de Actions-tab
+  workflow_dispatch:          # handmatig draaien via de Actions-tab
+    inputs:
+      dagen:
+        description: "Aantal dagen terugkijken (override voor test-/inhaalruns)"
+        required: false
+        default: "3"
 
 concurrency:
   group: telefoon-detectie
@@ -39,6 +44,8 @@ jobs:
           fi
 
       - name: Pipeline draaien
+        env:
+          TERUGKIJKEN_DAGEN: ${{ github.event.inputs.dagen || '3' }}
         run: python scripts/run_pipeline.py
 
       - name: Debug-screenshots bewaren (alleen als er gefaalde runs waren)
