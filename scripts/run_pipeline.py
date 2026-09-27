@@ -15,8 +15,10 @@ from detect import verwerk_video
 
 
 def main():
-    vergaderingen = nieuwe_afgeronde_vergaderingen()
-    print(f"{len(vergaderingen)} nieuwe afgeronde vergadering(en) gevonden")
+    dagen = int(os.environ.get("TERUGKIJKEN_DAGEN", "3"))
+    vergaderingen = nieuwe_afgeronde_vergaderingen(terugkijken_dagen=dagen)
+    print(f"{len(vergaderingen)} nieuwe afgeronde vergadering(en) gevonden "
+          f"(venster: laatste {dagen} dagen)")
 
     for v in vergaderingen:
         print(f"\n=== {v['titel']} ({v['id']}) ===")
