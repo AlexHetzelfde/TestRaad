@@ -1,0 +1,69 @@
+name: Telefoon-detectie pipeline
+
+on:
+  schedule:
+    - cron: "15 */2 * * *"   # elke 2 uur; pas gerust aan naar smaak
+  workflow_dispatch: {}       # handmatig draaien via de Actions-tab
+
+concurrency:
+  group: telefoon-detectie
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Systeemtools installeren
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Python-afhankelijkheden installeren
+        run: pip install -r requirements.txt --break-system-packages
+
+      - name: Playwright-browser installeren
+        run: playwright install --with-deps chromium
+
+      - name: Gezichtsdatabase opbouwen (als raadsleden/ gevuld is)
+        run: |
+          if [ -n "$(ls -A raadsleden 2>/dev/null)" ]; then
+            python scripts/enroll_faces.py
+          else
+            echo "raadsleden/ is leeg — voeg foto's toe en commit die eerst."
+          fi
+
+      - name: Pipeline draaien
+        run: python scripts/run_pipeline.py
+
+      - name: Debug-screenshots bewaren (alleen als er gefaalde runs waren)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshots
+          path: debug/
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Resultaten committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Niks nieuws om te committen."
+            exit 0
+          fi
+          git commit -m "pipeline: update $(date +'%Y-%m-%d %H:%M')"
+          for wachttijd in 3 6 12 20 30; do
+            git push && exit 0
+            sleep "$wachttijd"
+            git pull --rebase --autostash
+          done
+          echo "Push definitief mislukt"
+          exit 1
