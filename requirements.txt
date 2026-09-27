@@ -1,0 +1,8 @@
+playwright
+yt-dlp
+ultralytics
+insightface
+onnx
+onnxruntime
+opencv-python-headless
+numpy
