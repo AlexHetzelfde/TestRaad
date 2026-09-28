@@ -17,20 +17,25 @@ een kleine master-playlist (~3-4 kB) en de echte media-playlist
 (~100-120 kB, bevestigd 119 kB bij een vergadering van 4u22). De
 grootte-drempel hieronder (50 kB) zit daar precies tussen in.
 
-Eerste echte run (vergadering 8 sept 2026, via GitHub Actions) vond
-geen <video>-element en geen play-knop. Een screenshot van dezelfde
-pagina in een gewone browser (27-09-2026) liet zien waarom: er staat
-een posterscherm met titel/datum/duur en een knop met de tekst
-"Start nu" — pas ná die klik ontstaat er een <video>-element. Geen
-van de bestaande PLAY_KNOP_SELECTORS matchte die tekst, dus is
-"text=Start nu" nu als eerste optie toegevoegd. Nog te bevestigen:
-of die klik ook echt de twee sdk-ssl.m3u8-requests triggert zoals bij
-de handmatige muisklik.
+De video wordt geladen via een losse widget van CompanyWebcast
+("cwc", <script src="//sdk.companywebcast.com/sdk/player/client.js">
++ een lege <div class="cwc" data-video-id="...">, zie de paginabron).
+Server-side staat daar dus niks — pas die SDK bouwt client-side de
+speler (incl. een "Start nu"-knop op een posterscherm) op.
 
-Ter plekke blijft dit script ook screenshots + een logbestand
-(browserconsole + gevonden iframe-urls) wegschrijven naar debug/
-zodra er alsnog geen video wordt gevonden, zodat een volgende
-mismatch net zo snel te diagnosticeren is als deze.
+Tweede echte run (8 sept 2026, dagen=27): nog steeds geen video
+gevonden — máár nu bleek uit het eigen debug-logbestand dat er op
+geen enkel moment een iframe ontstond en er geen enkel
+consolebericht viel, vóór én ná alle klikpogingen. Dat wijst niet op
+een verkeerde knop-selector, maar op de SDK zelf die nooit iets
+opbouwt in deze headless sessie. Het probleem: `page.on("console")`
+vangt alleen expliciete console.log/warn/error-aanroepen — een
+mislukte resource-load (geblokkeerd, DNS-fout, timeout) of een
+onafgevangen JS-exception komt daar niet in terecht. Daarom luistert
+dit script nu ook naar "requestfailed" (mislukte requests) en
+"pageerror" (onafgevangen JS-fouten), en logt het apart de
+status van elke request naar companywebcast/agendavideo, zodat een
+stille blokkade dit keer wél zichtbaar wordt.
 """
 import os
 import time
@@ -60,6 +65,11 @@ MIN_GROOTTE_MEDIA_PLAYLIST = 50_000
 # de speler pas ná "networkidle" door een eigen JS-timer verschijnt.
 MAX_WACHTTIJD_OP_VIDEO_SEC = 10
 
+# Url-fragmenten die interessant genoeg zijn om altijd te loggen (welke
+# status ze ook teruggeven), ook als het geen mislukking is — zo zien we
+# meteen of de video-SDK überhaupt wordt opgehaald.
+INTERESSANTE_URL_FRAGMENTEN = ("companywebcast", "agendavideo")
+
 
 def _grootste_m3u8(gevonden):
     bruikbaar = [r for r in gevonden if r["grootte"] >= MIN_GROOTTE_MEDIA_PLAYLIST]
@@ -80,8 +90,9 @@ def _vind_video_element(page):
     return None
 
 
-def _schrijf_debug(page, console_log, agenda_id, label):
-    """Schermafbeelding + logbestand (console + iframe-urls) wegschrijven."""
+def _schrijf_debug(page, events, agenda_id, label):
+    """Schermafbeelding + logbestand (console, netwerkfouten, JS-fouten,
+    relevante request-statussen, iframe-urls) wegschrijven."""
     os.makedirs(DEBUG_DIR, exist_ok=True)
     schermafbeelding = f"{DEBUG_DIR}/{label}_{agenda_id}.png"
     try:
@@ -94,12 +105,26 @@ def _schrijf_debug(page, console_log, agenda_id, label):
         with open(logpad, "a", encoding="utf-8") as f:
             f.write(f"\n=== {label} ===\n")
             f.write(f"screenshot: {schermafbeelding}\n")
+
             f.write("iframes op de pagina:\n")
             for frame in page.frames:
                 if frame != page.main_frame:
                     f.write(f"  - {frame.url}\n")
+
+            f.write("relevante requests (companywebcast/agendavideo), status:\n")
+            for regel in events["relevante_responses"]:
+                f.write(f"  {regel}\n")
+
+            f.write("mislukte requests (netwerkfouten):\n")
+            for regel in events["mislukte_requests"]:
+                f.write(f"  {regel}\n")
+
+            f.write("onafgevangen JS-fouten (pageerror):\n")
+            for regel in events["js_fouten"]:
+                f.write(f"  {regel}\n")
+
             f.write("browserconsole (alles sinds page laden):\n")
-            for regel in console_log:
+            for regel in events["console_log"]:
                 f.write(f"  {regel}\n")
     except Exception as e:
         print(f"  ⚠ kon debug-logbestand niet wegschrijven: {e}")
@@ -109,7 +134,12 @@ def _schrijf_debug(page, console_log, agenda_id, label):
 
 def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
     gevonden = []
-    console_log = []
+    events = {
+        "console_log": [],
+        "mislukte_requests": [],
+        "js_fouten": [],
+        "relevante_responses": [],
+    }
 
     with sync_playwright() as p:
         # Autoplay-beleid verruimen: Chrome blokkeert normaal gesproken
@@ -126,12 +156,24 @@ def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
                 except ValueError:
                     lengte = 0
                 gevonden.append({"url": response.url, "grootte": lengte})
+            if any(fragment in response.url for fragment in INTERESSANTE_URL_FRAGMENTEN):
+                events["relevante_responses"].append(f"{response.status} — {response.url}")
 
         def on_console(msg):
-            console_log.append(f"[{msg.type}] {msg.text}")
+            events["console_log"].append(f"[{msg.type}] {msg.text}")
+
+        def on_requestfailed(request):
+            events["mislukte_requests"].append(
+                f"{request.url} — {request.failure}"
+            )
+
+        def on_pageerror(exc):
+            events["js_fouten"].append(str(exc))
 
         page.on("response", on_response)
         page.on("console", on_console)
+        page.on("requestfailed", on_requestfailed)
+        page.on("pageerror", on_pageerror)
 
         try:
             page.goto(agenda_url, wait_until="networkidle", timeout=20000)
@@ -140,7 +182,7 @@ def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
 
         # Screenshot vóór elke klikpoging — laat zien wat er al dan niet
         # vanzelf (zonder interactie) op de pagina staat.
-        _schrijf_debug(page, console_log, agenda_id, "voor_klik")
+        _schrijf_debug(page, events, agenda_id, "voor_klik")
 
         # Even pollen op een <video>-element: soms verschijnt de speler
         # pas een fractie na "networkidle", via een eigen JS-timer die
@@ -192,7 +234,7 @@ def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
             gewacht += 1
 
         if not gevonden:
-            schermafbeelding = _schrijf_debug(page, console_log, agenda_id, "geen_video")
+            schermafbeelding = _schrijf_debug(page, events, agenda_id, "geen_video")
             print(f"  ⚠ geen m3u8 gevonden voor {agenda_id} — "
                   f"screenshot: {schermafbeelding} — log: {DEBUG_DIR}/log_{agenda_id}.txt")
 
