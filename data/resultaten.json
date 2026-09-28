@@ -1,1 +1,2648 @@
-[]
+[
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1206.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_0.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1206.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_1.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_2.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_3.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_4.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_5.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_6.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_7.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_8.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_9.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_10.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_11.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_12.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_13.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_14.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_15.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_16.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_17.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_18.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_19.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_20.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_21.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_22.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1388.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_23.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_24.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_25.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_26.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_27.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_28.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_29.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_30.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_31.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_32.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_33.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_34.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_35.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_36.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_37.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_38.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_39.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_40.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_41.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_42.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_43.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_44.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_45.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_46.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_47.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_48.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_49.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_50.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_51.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_52.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_53.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_54.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_55.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_56.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_57.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_58.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_59.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_60.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_61.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_62.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1392.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_63.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1822.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_64.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1822.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_65.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1822.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_66.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1822.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_67.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1822.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_68.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1822.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_69.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1822.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_70.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1822.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_71.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1824.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_72.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1824.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_73.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1824.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_74.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1824.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_75.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1824.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_76.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1824.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_77.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1824.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_78.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 1824.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_79.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 2344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_80.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 2344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_81.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 2344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_82.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 2344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_83.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 2344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_84.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 2344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_85.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4434.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_86.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4434.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_87.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4434.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_88.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4434.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_89.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4434.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_90.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4542.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_91.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4542.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_92.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4542.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_93.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 4542.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_94.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_95.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_96.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_97.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_98.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_99.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_100.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_101.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_102.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_103.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5216.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_104.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5216.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_105.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5216.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_106.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5216.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_107.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5304.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_108.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5304.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_109.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5304.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_110.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5304.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_111.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5304.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_112.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5306.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_113.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5306.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_114.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5306.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_115.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5306.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_116.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5306.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_117.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5312.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_118.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5312.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_119.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5312.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_120.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5312.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_121.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5312.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_122.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5314.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_123.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5314.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_124.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5314.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_125.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5314.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_126.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5314.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_127.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5316.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_128.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5316.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_129.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5316.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_130.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5316.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_131.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5316.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_132.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5342.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_133.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5342.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_134.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5342.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_135.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5342.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_136.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5342.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_137.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5342.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_138.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_139.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_140.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_141.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_142.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_143.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5344.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_144.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5346.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_145.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5346.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_146.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5346.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_147.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5346.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_148.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5346.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_149.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5346.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_150.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5348.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_151.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5348.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_152.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5348.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_153.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5348.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_154.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5348.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_155.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5348.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_156.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5352.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_157.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5352.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_158.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5352.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_159.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5352.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_160.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5352.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_161.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5354.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_162.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5354.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_163.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5354.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_164.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5354.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_165.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5354.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_166.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5364.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_167.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5364.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_168.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5364.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_169.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5364.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_170.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5364.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_171.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5370.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_172.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5370.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_173.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5370.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_174.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5370.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_175.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5370.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_176.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5380.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_177.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5380.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_178.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5380.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_179.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5380.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_180.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5380.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_181.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5382.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_182.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5382.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_183.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5382.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_184.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5382.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_185.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5382.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_186.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_187.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_188.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_189.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_190.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5390.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_191.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5396.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_192.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5396.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_193.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5396.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_194.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5396.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_195.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5396.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_196.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5404.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_197.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5404.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_198.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5404.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_199.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5404.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_200.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5404.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_201.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5408.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_202.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5408.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_203.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5408.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_204.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5408.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_205.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5408.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_206.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5410.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_207.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5410.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_208.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5410.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_209.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5410.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_210.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5410.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_211.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5412.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_212.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5412.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_213.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5412.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_214.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5412.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_215.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5412.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_216.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5414.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_217.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5414.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_218.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5414.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_219.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5414.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_220.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5414.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_221.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5414.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_222.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5416.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_223.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5416.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_224.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5416.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_225.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5416.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_226.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5426.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_227.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5426.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_228.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5426.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_229.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5426.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_230.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5426.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_231.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5428.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_232.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5428.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_233.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5428.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_234.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5428.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_235.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5428.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_236.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5430.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_237.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5430.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_238.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5430.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_239.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5430.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_240.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5430.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_241.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5432.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_242.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5432.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_243.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5432.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_244.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5432.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_245.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5432.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_246.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5436.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_247.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5436.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_248.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5436.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_249.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5436.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_250.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5436.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_251.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5438.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_252.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5438.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_253.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5438.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_254.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5438.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_255.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5438.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_256.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5462.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_257.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5462.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_258.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5462.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_259.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5462.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_260.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 5462.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_261.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6176.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_262.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6176.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_263.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6176.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_264.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6176.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_265.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6176.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_266.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6176.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_267.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6178.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_268.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6178.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_269.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6178.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_270.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6178.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_271.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6178.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_272.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6180.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_273.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6180.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_274.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6180.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_275.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6180.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_276.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6180.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_277.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6182.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_278.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6182.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_279.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6182.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_280.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6182.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_281.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6182.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_282.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6184.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_283.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6184.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_284.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6184.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_285.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6184.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_286.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6184.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_287.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6186.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_288.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6186.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_289.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6186.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_290.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6186.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_291.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6186.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_292.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6188.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_293.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6188.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_294.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6188.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_295.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6188.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_296.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6188.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_297.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6190.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_298.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6190.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_299.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6190.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_300.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6190.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_301.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6190.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_302.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6190.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_303.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6192.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_304.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6192.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_305.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6192.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_306.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6192.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_307.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6192.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_308.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6192.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_309.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6196.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_310.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6196.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_311.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6196.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_312.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6196.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_313.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6196.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_314.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6196.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_315.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6198.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_316.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6198.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_317.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6198.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_318.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6198.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_319.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6198.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_320.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6198.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_321.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_322.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_323.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_324.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_325.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_326.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6200.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_327.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6202.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_328.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6202.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_329.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6202.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_330.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6202.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_331.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6202.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_332.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6202.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_333.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6204.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_334.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6204.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_335.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6204.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_336.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6204.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_337.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6204.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_338.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6204.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_339.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6206.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_340.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6206.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_341.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6206.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_342.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6206.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_343.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6206.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_344.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6206.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_345.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6208.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_346.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6208.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_347.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6208.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_348.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6208.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_349.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6208.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_350.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6212.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_351.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6212.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_352.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6212.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_353.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6212.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_354.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6212.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_355.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_356.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_357.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_358.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_359.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 6214.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_360.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 13422.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_361.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 13422.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_362.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 13422.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_363.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 13854.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_364.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 13854.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_365.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15170.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_366.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15170.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_367.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15170.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_368.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15170.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_369.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15590.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_370.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15590.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_371.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15590.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_372.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15590.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_373.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15592.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_374.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15592.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_375.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15592.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_376.mp4"
+  },
+  {
+    "vergadering_id": "c61f327c-3367-4cea-bacc-5cf8ab32983c",
+    "titel": "Raadsvergadering",
+    "tijdstip_sec": 15592.0,
+    "raadslid": "onbekend",
+    "clip": "data/clips/c61f327c-3367-4cea-bacc-5cf8ab32983c_377.mp4"
+  }
+]
