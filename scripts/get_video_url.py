@@ -36,13 +36,25 @@ dit script nu ook naar "requestfailed" (mislukte requests) en
 "pageerror" (onafgevangen JS-fouten), en logt het apart de
 status van elke request naar companywebcast/agendavideo, zodat een
 stille blokkade dit keer wél zichtbaar wordt.
+
+Derde versie (28 sept 2026): de browsercontext kreeg tot nu toe geen
+eigen User-Agent mee, dus Playwright stuurde er een met "HeadlessChrome"
+erin (config.HEADERS werd alleen door get_meetings.py gebruikt). Een
+widget die bots weert kan daarop stilletjes weigeren iets op te bouwen,
+precies het symptoom uit de tweede run. Nu krijgt de context dezelfde
+gewone Chrome-User-Agent als de agenda-aanvraag, plus nl-NL/Amsterdam en
+een verborgen navigator.webdriver. Daarnaast schrijft het script een
+"sonde" naar het logbestand: welke User-Agent en webdriver-waarde de
+pagina echt ziet, en welke status de SDK-scripts krijgen bij een directe
+aanvraag vanaf de GitHub-runner. Zo is te zien of het aan de
+User-Agent of aan het IP-adres ligt.
 """
 import os
 import time
 
 from playwright.sync_api import sync_playwright
 
-from config import DEBUG_DIR
+from config import DEBUG_DIR, HEADERS
 
 # Kandidaat-selectors voor de play-knop, van specifiek naar generiek.
 # De eerste die zichtbaar is (op de hoofdpagina óf in een iframe), wordt
@@ -69,6 +81,14 @@ MAX_WACHTTIJD_OP_VIDEO_SEC = 10
 # status ze ook teruggeven), ook als het geen mislukking is — zo zien we
 # meteen of de video-SDK überhaupt wordt opgehaald.
 INTERESSANTE_URL_FRAGMENTEN = ("companywebcast", "agendavideo")
+
+# Directe controle vanaf de runner: komen we bij de SDK zelf?
+SONDE_URLS = (
+    "https://sdk.companywebcast.com/sdk/player/client.js",
+)
+
+# Verbergt de meest voor de hand liggende automatiseringsvlag.
+INIT_SCRIPT = "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
 
 
 def _grootste_m3u8(gevonden):
@@ -115,6 +135,10 @@ def _schrijf_debug(page, events, agenda_id, label):
             for regel in events["relevante_responses"]:
                 f.write(f"  {regel}\n")
 
+            f.write("sonde (wat ziet de pagina / de SDK vanaf deze runner):\n")
+            for regel in events["sonde"]:
+                f.write(f"  {regel}\n")
+
             f.write("mislukte requests (netwerkfouten):\n")
             for regel in events["mislukte_requests"]:
                 f.write(f"  {regel}\n")
@@ -139,6 +163,7 @@ def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
         "mislukte_requests": [],
         "js_fouten": [],
         "relevante_responses": [],
+        "sonde": [],
     }
 
     with sync_playwright() as p:
@@ -146,8 +171,18 @@ def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
         # geluid+video afspelen zonder "echte" gebruikersinteractie. Dit
         # maakt de video.play()-aanroep hieronder betrouwbaar, ook
         # headless op een server.
-        browser = p.chromium.launch(args=["--autoplay-policy=no-user-gesture-required"])
-        page = browser.new_context().new_page()
+        browser = p.chromium.launch(args=[
+            "--autoplay-policy=no-user-gesture-required",
+            "--disable-blink-features=AutomationControlled",
+        ])
+        context = browser.new_context(
+            user_agent=HEADERS["User-Agent"],
+            locale="nl-NL",
+            timezone_id="Europe/Amsterdam",
+            viewport={"width": 1366, "height": 900},
+        )
+        context.add_init_script(INIT_SCRIPT)
+        page = context.new_page()
 
         def on_response(response):
             if ".m3u8" in response.url:
@@ -179,6 +214,22 @@ def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
             page.goto(agenda_url, wait_until="networkidle", timeout=20000)
         except Exception as e:
             print(f"  ⚠ pagina laden mislukt: {e}")
+
+        # Sonde: wat ziet de pagina zelf, en bereikt de runner de SDK?
+        try:
+            events["sonde"].append(
+                "pagina ziet: " + page.evaluate(
+                    "() => `UA=${navigator.userAgent} | webdriver=${navigator.webdriver}`"
+                )
+            )
+        except Exception as e:
+            events["sonde"].append(f"pagina-sonde mislukt: {e}")
+        for sonde_url in SONDE_URLS:
+            try:
+                antwoord = page.request.get(sonde_url, timeout=10000)
+                events["sonde"].append(f"GET {sonde_url} -> {antwoord.status}")
+            except Exception as e:
+                events["sonde"].append(f"GET {sonde_url} -> mislukt: {e}")
 
         # Screenshot vóór elke klikpoging — laat zien wat er al dan niet
         # vanzelf (zonder interactie) op de pagina staat.
