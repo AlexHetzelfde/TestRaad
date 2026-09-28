@@ -48,20 +48,46 @@ een verborgen navigator.webdriver. Daarnaast schrijft het script een
 pagina echt ziet, en welke status de SDK-scripts krijgen bij een directe
 aanvraag vanaf de GitHub-runner. Zo is te zien of het aan de
 User-Agent of aan het IP-adres ligt.
+
+Vierde versie (28 sept 2026), op basis van cURL-opnames uit een gewone
+browser: de speler draait NIET in de vergaderpagina zelf maar op
+    https://sdk.companywebcast.com/sdk/player/?id=<data-video-id>&display=126&customBtnColor=006a81
+(bv. id=zaanstad_20260908_2), en doet daar zelf de token-uitwisseling
+(accessrules/<guid> met een X-Authorization-header, plus /token). Er
+zijn geen cookies voor nodig, en de teruggegeven CloudFront-policies
+zijn niet aan een IP-adres gebonden (AWS:SourceIp 0.0.0.0/0). Het
+GitHub-IP is dus geen reden dat het niet werkt. Het loader-script op de
+vergaderpagina (client.js) bouwde in de headless run nooit een iframe.
+Daarom leest dit script nu het data-video-id uit de vergaderpagina en
+opent het de speler-url rechtstreeks, met de vergaderpagina als Referer.
+Lukt dat niet, dan valt het terug op de oude route via de vergaderpagina.
+Startvolgorde is omgedraaid: eerst een echte klik op "Start nu" (dat is
+de handeling waarvan bewezen is dat ze de m3u8-requests triggert), en
+pas daarna video.play() als terugvaloptie.
 """
 import os
+import re
 import time
+from urllib.parse import quote
 
 from playwright.sync_api import sync_playwright
 
 from config import DEBUG_DIR, HEADERS
+
+# De speler zelf, zoals gezien in de Network-tab (Referer-header van de
+# accessrules- en token-requests). {video_id} komt uit het data-video-id
+# van de <div class="cwc"> op de vergaderpagina.
+SPELER_URL = (
+    "https://sdk.companywebcast.com/sdk/player/"
+    "?id={video_id}&display=126&customBtnColor=006a81"
+)
 
 # Kandidaat-selectors voor de play-knop, van specifiek naar generiek.
 # De eerste die zichtbaar is (op de hoofdpagina óf in een iframe), wordt
 # aangeklikt.
 PLAY_KNOP_SELECTORS = [
     "text=Start nu",                 # bevestigd op de echte pagina (screenshot 27-09-2026): posterscherm met titel/datum/duur en deze knop, vóór er een <video> bestaat
-    "button.vjs-big-play-button",   # video.js — veelgebruikte HLS-player
+    "button.vjs-big-play-button",   # video.js
     ".plyr__control--overlaid",     # plyr.io
     "button[aria-label*='play' i]",
     "button[title*='afspelen' i]",
@@ -69,17 +95,16 @@ PLAY_KNOP_SELECTORS = [
 ]
 
 # Grens om de kleine "master playlist" (~3 kB) te onderscheiden van de
-# grote "media playlist" (~100-120 kB) — zie de instructie in app.js.
+# grote "media playlist" (~100-120 kB), zie de instructie in app.js.
 MIN_GROOTTE_MEDIA_PLAYLIST = 50_000
 
-# Hoe lang we blijven pollen op een <video>-element voordat we opgeven
-# — losstaand van de m3u8-wachttijd hieronder. Vangt het geval op waarin
-# de speler pas ná "networkidle" door een eigen JS-timer verschijnt.
-MAX_WACHTTIJD_OP_VIDEO_SEC = 10
+# Hoe lang we wachten op een play-knop of <video>-element.
+MAX_WACHTTIJD_OP_SPELER_SEC = 12
 
-# Url-fragmenten die interessant genoeg zijn om altijd te loggen (welke
-# status ze ook teruggeven), ook als het geen mislukking is — zo zien we
-# meteen of de video-SDK überhaupt wordt opgehaald.
+# Na de klik: hoe lang wachten we op de m3u8 voordat we video.play() proberen.
+WACHT_NA_KLIK_SEC = 8
+
+# Url-fragmenten die altijd gelogd worden (welke status ze ook teruggeven).
 INTERESSANTE_URL_FRAGMENTEN = ("companywebcast", "agendavideo")
 
 # Directe controle vanaf de runner: komen we bij de SDK zelf?
@@ -99,9 +124,13 @@ def _grootste_m3u8(gevonden):
     return max(kandidaten, key=lambda r: r["grootte"])["url"]
 
 
+def _media_playlist_binnen(gevonden):
+    return any(r["grootte"] >= MIN_GROOTTE_MEDIA_PLAYLIST for r in gevonden)
+
+
 def _vind_video_element(page):
     """Geeft het frame terug waarin een <video>-element zit, of None."""
-    for frame in [page] + page.frames:
+    for frame in page.frames:
         try:
             if frame.locator("video").first.count():
                 return frame
@@ -110,9 +139,72 @@ def _vind_video_element(page):
     return None
 
 
+def _koppel_listeners(page, gevonden, events):
+    """Hangt alle logging en de m3u8-detectie aan een pagina."""
+
+    def on_response(response):
+        if ".m3u8" in response.url:
+            try:
+                lengte = int(response.headers.get("content-length", "0"))
+            except ValueError:
+                lengte = 0
+            if lengte == 0:
+                # Geen content-length (bv. chunked/gzip): dan de echte
+                # lengte van de body meten, anders lijken ze allemaal 0 kB.
+                try:
+                    lengte = len(response.body())
+                except Exception:
+                    lengte = 0
+            gevonden.append({"url": response.url, "grootte": lengte})
+        if any(fragment in response.url for fragment in INTERESSANTE_URL_FRAGMENTEN):
+            events["relevante_responses"].append(f"{response.status} — {response.url}")
+
+    def on_console(msg):
+        events["console_log"].append(f"[{msg.type}] {msg.text}")
+
+    def on_requestfailed(request):
+        events["mislukte_requests"].append(f"{request.url} — {request.failure}")
+
+    def on_pageerror(exc):
+        events["js_fouten"].append(str(exc))
+
+    page.on("response", on_response)
+    page.on("console", on_console)
+    page.on("requestfailed", on_requestfailed)
+    page.on("pageerror", on_pageerror)
+
+
+def _lees_video_id(page):
+    """Haalt het data-video-id uit de <div class="cwc"> op de vergaderpagina."""
+    try:
+        html = page.content()
+    except Exception:
+        return None
+    m = re.search(r"data-video-id\s*=\s*[\"']([^\"']+)[\"']", html)
+    return m.group(1).replace("/", "_") if m else None
+
+
+def _sonde(page, events):
+    """Wat ziet de pagina zelf, en bereikt de runner de SDK?"""
+    try:
+        events["sonde"].append(
+            "pagina ziet: " + page.evaluate(
+                "() => `UA=${navigator.userAgent} | webdriver=${navigator.webdriver}`"
+            )
+        )
+    except Exception as e:
+        events["sonde"].append(f"pagina-sonde mislukt: {e}")
+    for sonde_url in SONDE_URLS:
+        try:
+            antwoord = page.request.get(sonde_url, timeout=10000)
+            events["sonde"].append(f"GET {sonde_url} -> {antwoord.status}")
+        except Exception as e:
+            events["sonde"].append(f"GET {sonde_url} -> mislukt: {e}")
+
+
 def _schrijf_debug(page, events, agenda_id, label):
-    """Schermafbeelding + logbestand (console, netwerkfouten, JS-fouten,
-    relevante request-statussen, iframe-urls) wegschrijven."""
+    """Schermafbeelding + logbestand (sonde, console, netwerkfouten,
+    JS-fouten, relevante request-statussen, iframe-urls) wegschrijven."""
     os.makedirs(DEBUG_DIR, exist_ok=True)
     schermafbeelding = f"{DEBUG_DIR}/{label}_{agenda_id}.png"
     try:
@@ -124,6 +216,7 @@ def _schrijf_debug(page, events, agenda_id, label):
     try:
         with open(logpad, "a", encoding="utf-8") as f:
             f.write(f"\n=== {label} ===\n")
+            f.write(f"pagina-url: {page.url}\n")
             f.write(f"screenshot: {schermafbeelding}\n")
 
             f.write("iframes op de pagina:\n")
@@ -131,12 +224,12 @@ def _schrijf_debug(page, events, agenda_id, label):
                 if frame != page.main_frame:
                     f.write(f"  - {frame.url}\n")
 
-            f.write("relevante requests (companywebcast/agendavideo), status:\n")
-            for regel in events["relevante_responses"]:
-                f.write(f"  {regel}\n")
-
             f.write("sonde (wat ziet de pagina / de SDK vanaf deze runner):\n")
             for regel in events["sonde"]:
+                f.write(f"  {regel}\n")
+
+            f.write("relevante requests (companywebcast/agendavideo), status:\n")
+            for regel in events["relevante_responses"]:
                 f.write(f"  {regel}\n")
 
             f.write("mislukte requests (netwerkfouten):\n")
@@ -156,6 +249,62 @@ def _schrijf_debug(page, events, agenda_id, label):
     return schermafbeelding
 
 
+def _klik_play(page):
+    """Klikt op de eerste zichtbare play-knop (hoofdpagina of iframe).
+    Geeft de gebruikte selector terug, of None."""
+    for frame in page.frames:
+        for selector in PLAY_KNOP_SELECTORS:
+            try:
+                el = frame.locator(selector).first
+                if el.count() and el.is_visible(timeout=1000):
+                    el.click(timeout=2000)
+                    return selector
+            except Exception:
+                continue
+    return None
+
+
+def _probeer_te_starten(page, gevonden, timeout_sec):
+    """Start de video op deze pagina en wacht op de grote media-playlist.
+    Geeft True terug als die binnenkwam."""
+    # 1. Klikken zodra de knop (of het video-element) er is.
+    selector = None
+    gewacht = 0
+    while selector is None and gewacht < MAX_WACHTTIJD_OP_SPELER_SEC:
+        selector = _klik_play(page)
+        if selector is None:
+            time.sleep(1)
+            gewacht += 1
+    if selector:
+        print(f"  ▶ geklikt op {selector!r} na {gewacht}s wachten")
+    else:
+        print(f"  ⚠ geen play-knop gevonden op {page.url}")
+
+    # 2. Even wachten op de m3u8-requests.
+    gewacht = 0
+    while gewacht < WACHT_NA_KLIK_SEC and not _media_playlist_binnen(gevonden):
+        time.sleep(1)
+        gewacht += 1
+
+    # 3. Terugvaloptie: direct .play() aanroepen op het <video>-element.
+    if not _media_playlist_binnen(gevonden):
+        frame = _vind_video_element(page)
+        if frame is not None:
+            try:
+                frame.evaluate("document.querySelector('video')?.play()")
+                print("  ▶ video.play() aangeroepen als terugvaloptie")
+            except Exception as e:
+                print(f"  ⚠ video.play() mislukt: {e}")
+
+    # 4. Wachten tot de grote media-playlist binnenkomt (of timeout).
+    gewacht = 0
+    while gewacht < timeout_sec and not _media_playlist_binnen(gevonden):
+        time.sleep(1)
+        gewacht += 1
+
+    return _media_playlist_binnen(gevonden)
+
+
 def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
     gevonden = []
     events = {
@@ -168,9 +317,7 @@ def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
 
     with sync_playwright() as p:
         # Autoplay-beleid verruimen: Chrome blokkeert normaal gesproken
-        # geluid+video afspelen zonder "echte" gebruikersinteractie. Dit
-        # maakt de video.play()-aanroep hieronder betrouwbaar, ook
-        # headless op een server.
+        # geluid+video afspelen zonder "echte" gebruikersinteractie.
         browser = p.chromium.launch(args=[
             "--autoplay-policy=no-user-gesture-required",
             "--disable-blink-features=AutomationControlled",
@@ -182,112 +329,54 @@ def haal_video_url_op(agenda_url, agenda_id, timeout_sec=30):
             viewport={"width": 1366, "height": 900},
         )
         context.add_init_script(INIT_SCRIPT)
-        page = context.new_page()
 
-        def on_response(response):
-            if ".m3u8" in response.url:
-                try:
-                    lengte = int(response.headers.get("content-length", "0"))
-                except ValueError:
-                    lengte = 0
-                gevonden.append({"url": response.url, "grootte": lengte})
-            if any(fragment in response.url for fragment in INTERESSANTE_URL_FRAGMENTEN):
-                events["relevante_responses"].append(f"{response.status} — {response.url}")
-
-        def on_console(msg):
-            events["console_log"].append(f"[{msg.type}] {msg.text}")
-
-        def on_requestfailed(request):
-            events["mislukte_requests"].append(
-                f"{request.url} — {request.failure}"
-            )
-
-        def on_pageerror(exc):
-            events["js_fouten"].append(str(exc))
-
-        page.on("response", on_response)
-        page.on("console", on_console)
-        page.on("requestfailed", on_requestfailed)
-        page.on("pageerror", on_pageerror)
-
+        # 1. De vergaderpagina: alleen nodig om het video-id te lezen
+        #    (en als terugvaloptie als de speler los niet wil).
+        vergaderpagina = context.new_page()
+        _koppel_listeners(vergaderpagina, gevonden, events)
         try:
-            page.goto(agenda_url, wait_until="networkidle", timeout=20000)
+            vergaderpagina.goto(agenda_url, wait_until="networkidle", timeout=20000)
         except Exception as e:
             print(f"  ⚠ pagina laden mislukt: {e}")
 
-        # Sonde: wat ziet de pagina zelf, en bereikt de runner de SDK?
-        try:
-            events["sonde"].append(
-                "pagina ziet: " + page.evaluate(
-                    "() => `UA=${navigator.userAgent} | webdriver=${navigator.webdriver}`"
+        _sonde(vergaderpagina, events)
+        video_id = _lees_video_id(vergaderpagina)
+        events["sonde"].append(f"data-video-id op vergaderpagina: {video_id}")
+        _schrijf_debug(vergaderpagina, events, agenda_id, "voor_klik")
+
+        # 2. De speler rechtstreeks openen, met de vergaderpagina als Referer.
+        kandidaten = []
+        if video_id:
+            speler = context.new_page()
+            _koppel_listeners(speler, gevonden, events)
+            speler_url = SPELER_URL.format(video_id=quote(video_id, safe=""))
+            events["sonde"].append(f"directe speler-url: {speler_url}")
+            print(f"  speler rechtstreeks openen: {speler_url}")
+            try:
+                speler.goto(
+                    speler_url,
+                    referer=agenda_url,
+                    wait_until="domcontentloaded",
+                    timeout=20000,
                 )
-            )
-        except Exception as e:
-            events["sonde"].append(f"pagina-sonde mislukt: {e}")
-        for sonde_url in SONDE_URLS:
-            try:
-                antwoord = page.request.get(sonde_url, timeout=10000)
-                events["sonde"].append(f"GET {sonde_url} -> {antwoord.status}")
             except Exception as e:
-                events["sonde"].append(f"GET {sonde_url} -> mislukt: {e}")
+                print(f"  ⚠ speler laden mislukt: {e}")
+            kandidaten.append(("speler", speler))
+        else:
+            print("  ⚠ geen data-video-id gevonden op de vergaderpagina")
+        kandidaten.append(("vergaderpagina", vergaderpagina))
 
-        # Screenshot vóór elke klikpoging — laat zien wat er al dan niet
-        # vanzelf (zonder interactie) op de pagina staat.
-        _schrijf_debug(page, events, agenda_id, "voor_klik")
+        # 3. Video starten: eerst de speler, dan pas de oude route.
+        for naam, pagina in kandidaten:
+            if _probeer_te_starten(pagina, gevonden, timeout_sec):
+                print(f"  ✓ media-playlist gevonden via {naam}")
+                break
 
-        # Even pollen op een <video>-element: soms verschijnt de speler
-        # pas een fractie na "networkidle", via een eigen JS-timer die
-        # geen netwerkverkeer genereert.
-        frame_met_video = _vind_video_element(page)
-        gewacht_op_video = 0
-        while frame_met_video is None and gewacht_op_video < MAX_WACHTTIJD_OP_VIDEO_SEC:
-            time.sleep(1)
-            gewacht_op_video += 1
-            frame_met_video = _vind_video_element(page)
-
-        # Video proberen te starten — kan in een iframe zitten (bevestigd:
-        # de CWC-player draait genest in eigen iframes). Eerst de robuuste
-        # route (direct .play() aanroepen op het <video>-element, werkt
-        # los van hoe de knop precies is opgebouwd), met de oude
-        # knop-klik-aanpak als terugvaloptie.
-        gestart = False
-        if frame_met_video is not None:
-            try:
-                frame_met_video.evaluate("document.querySelector('video')?.play()")
-                gestart = True
-            except Exception:
-                pass
-
-        if not gestart:
-            for frame in [page] + page.frames:
-                for selector in PLAY_KNOP_SELECTORS:
-                    try:
-                        el = frame.locator(selector).first
-                        if el.count() and el.is_visible(timeout=1000):
-                            el.click(timeout=2000)
-                            gestart = True
-                            break
-                    except Exception:
-                        continue
-                if gestart:
-                    break
-
-        if not gestart:
-            print("  ⚠ geen <video> gevonden en geen play-knop geklikt "
-                  "(zie PLAY_KNOP_SELECTORS)")
-
-        # Wachten tot de grote media-playlist binnenkomt (of timeout).
-        gewacht = 0
-        while gewacht < timeout_sec and not any(
-            r["grootte"] >= MIN_GROOTTE_MEDIA_PLAYLIST for r in gevonden
-        ):
-            time.sleep(1)
-            gewacht += 1
-
-        if not gevonden:
-            schermafbeelding = _schrijf_debug(page, events, agenda_id, "geen_video")
-            print(f"  ⚠ geen m3u8 gevonden voor {agenda_id} — "
-                  f"screenshot: {schermafbeelding} — log: {DEBUG_DIR}/log_{agenda_id}.txt")
+        if not _media_playlist_binnen(gevonden):
+            for naam, pagina in kandidaten:
+                _schrijf_debug(pagina, events, agenda_id, f"geen_video_{naam}")
+            print(f"  ⚠ geen (grote) m3u8 gevonden voor {agenda_id} — "
+                  f"screenshots en log: {DEBUG_DIR}/ (log_{agenda_id}.txt)")
 
         browser.close()
 
